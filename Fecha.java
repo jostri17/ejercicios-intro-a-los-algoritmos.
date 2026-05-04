@@ -38,4 +38,7 @@ public class Fecha
 public void setYear(int year){
     this.year = year;
 }
+public String toString(){
+return this.day + "/" + this.month + "/" + this.year;
+}
 }
