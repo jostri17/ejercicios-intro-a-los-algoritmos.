@@ -29,4 +29,13 @@ public class Fecha
  public int getYear(){
     return year;
     }
+ public void setDay(int day){
+    this.day = day;
+    }
+    public void setMonth(int month){
+    this.month = month;
+}
+public void setYear(int year){
+    this.year = year;
+}
 }
